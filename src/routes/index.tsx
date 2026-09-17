@@ -175,9 +175,9 @@ function Index() {
 
       {/* Hero */}
       <section id="top" className="relative overflow-hidden bg-background">
-        <div className="kx-2 -right-20 -top-28 h-[520px] w-[620px] -rotate-12" />
-        <div className="kx -left-32 top-40 h-[460px] w-[560px] rotate-6" />
-        <div className="relative mx-auto max-w-6xl px-6 py-24 md:py-32">
+        <div className="kx-2 pointer-events-none -right-20 -top-28 z-0 h-[520px] w-[620px] -rotate-12" />
+        <div className="kx pointer-events-none -left-32 top-40 z-0 h-[460px] w-[560px] rotate-6" />
+        <div className="relative z-10 mx-auto max-w-6xl px-6 py-24 md:py-32">
           <p className="kicker">Personal desk · case file 2026</p>
           <h1 className="mt-5 max-w-[20ch] text-balance text-5xl font-black leading-none tracking-tight md:text-7xl">
             KUTLWANO MAVIMBELA
@@ -360,8 +360,8 @@ function Index() {
       {/* Contact */}
       <section id="contact" className="bg-surface ring-1 ring-border">
         <div className="mx-auto max-w-6xl px-6 py-20 text-center">
-          <div className="kx -bottom-24 -left-24 h-[360px] w-[420px] -rotate-6" />
-          <div className="relative">
+          <div className="kx pointer-events-none -bottom-24 -left-24 z-0 h-[360px] w-[420px] -rotate-6" />
+          <div className="relative z-10">
             <h2 className="text-balance text-3xl font-semibold">Let's build something</h2>
             <p className="mx-auto mt-3 max-w-[44ch] text-pretty text-base leading-7 text-muted-foreground">
               Open to junior and mid-level developer roles, freelance builds and collaborations.
